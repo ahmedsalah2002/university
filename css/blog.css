@@ -96,6 +96,53 @@ scroll-behavior:smooth ;
 }
 
 
+/* start content */
+
+.blog :is(.left,.right){
+	width: 35%;
+	min-width: 300px;
+}
+.blog .left{
+	width: 55%;
+}
+.blog .left img{
+	width: 100%;
+	min-width: 300px;
+}
+
+.blog .left form input ,
+.blog .left form textarea{
+	width: 100%;
+	margin: 7px;
+	padding: 5px;
+	
+} 
+.blog .left form textarea{
+	height: 300px;
+}
+.blog .left form .btn1{
+	width: fit-content;
+	padding: 10px 15px;
+	border: 2px solid #bfbfbf;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.blog .left form .btn1:hover{
+	color: white;
+	background-color: rgb(234, 70, 25);
+}
+
+
+
+
+
+.blog .right .head{
+	background-color: var(--main-color);
+}
+/* end content */
+
 
 
 
