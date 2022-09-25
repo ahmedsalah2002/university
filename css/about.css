@@ -225,3 +225,13 @@ footer span{
 
 
 /* finish footer */
+
+
+@media (max-width:381px) {
+  .container{
+    width: 100% !important;
+  }
+  .box{
+    width: auto !important;
+  }
+}

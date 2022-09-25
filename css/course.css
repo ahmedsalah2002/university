@@ -123,7 +123,7 @@ scroll-behavior:smooth ;
     }
   
     .navbar-brand{
-     width: 10% !important;
+      width: 10% !important;
     }
     @media (max-width:990px) {
       .navbar-brand{
@@ -218,3 +218,14 @@ footer span{
 
 
 /* finish footer */
+
+
+
+@media (max-width:381px) {
+  .container{
+    width: 100% !important;
+  }
+  .box{
+    width: auto !important;
+  }
+}
