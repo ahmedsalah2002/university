@@ -1,0 +1,148 @@
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body {
+	font-family: 'Raleway', sans-serif !important;
+}
+html{
+	scroll-behavior:smooth ;
+}
+
+:root{
+	--main-color:#ff3e01;
+}
+
+
+/* start navbar */
+.navbar{
+	z-index: 100000;
+}
+.navbar.scroll,.navbar.top{
+	background-color: black;
+}
+
+.nav-link{
+	color: white !important;
+	font-weight: 400 !important;
+	transition: .3s;
+}
+.nav-link:hover,.nav-link.active{
+	border-bottom: 1px solid var(--main-color);
+}
+
+.navbar-brand{
+	width: 10% !important;
+}
+@media (max-width:990px) {
+	.navbar-brand{
+		width: 20% !important;
+	}
+
+}
+
+.navbar .navbar-toggler {
+	color: white;
+	font-size: 25px;
+	border-color: transparent;
+}
+.navbar .navbar-toggler:focus {
+	box-shadow: none;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+	border-color: transparent;
+}
+
+ /* finish navbar */
+
+
+
+.about .container{
+	width: 80%;
+	margin: auto;
+}
+.about .title {
+	background-image: url("../images/background.jpg");
+	height: 333px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about .title::after{
+	position: absolute;
+	content: "";
+	width: 100%;
+	top: 0;
+	left: 0%;
+	height: 100%;
+	background-color: #25009f65;
+	z-index: 0;
+}
+.about .title .name{
+	left: 50%;
+	top: 71%;
+	transform: translateX(-50% );
+	font-weight: bold;
+	z-index: 5;
+	font-size: 28px;
+}
+
+
+.about  .content{
+	margin: 50px 0;
+}
+.about  .left,
+.about  .right{
+	width: 40%;
+	min-width: 300px;
+}
+.about  .left h2{
+	font-weight: 700;
+}
+.about  .right img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.about  .content .btn1{
+	width: fit-content;
+	padding: 10px 15px;
+	border: 2px solid #bfbfbf;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: .3s;
+}
+.about  .content .btn1:hover{
+	color: white;
+	background-color: rgb(234, 70, 25);
+}
+
+
+/* footer  */
+.footer p{
+	text-align: center;
+}
+.footer ul{
+	width: 150px;
+	justify-content: space-around;
+}
+.footer ul li svg{
+	font-size: 27px;
+	cursor: pointer;
+	color:  rgb(255 0 64);
+}
+
+.footer .copy-right{
+	font-size: 19px;
+	text-align: center;
+	cursor: default;
+}
+.footer .copy-right span{
+	font-weight: bold;
+	color: #ff4566;
+}
