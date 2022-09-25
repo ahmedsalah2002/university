@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/about.css">
     <link rel="icon" href="images/logo.png">
+    <!-- css files -->
     <!-- fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- fonts  -->
-</head>
-<body>
-
-
-   <!-- start landing -->
+    
+    <title>university</title>
+  </head>
+  <body>
+  <!-- start landing -->
   <section class="landing" id="landing">
     <div class="overlay"></div>
     <div class="container ">
@@ -54,39 +56,71 @@
         </nav>
       <!-- finish navbar -->
       <div class="landing-text text-center">
-        <h1 class=" text-capitalize">about us</h1>
+        <h1 class=" text-capitalize">contact us</h1>
       </div>
     </div>
   </section>
   <!-- finish landing -->
-    <div class="about" >
 
+    <!-- start map -->
 
+<div class="map mt-5 mb-5">
+    <div class="container">
+        <div class="map-cont">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d859.117970616518!2d30.98044795034472!3d30.535969264466885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7d556018f9749%3A0xa7d6c2370d0e12f2!2z2YXYr9ix2LPYqSDYp9mE2YXYp9mKINin2YTYq9in2YbZiNmK2Kkg2KfZhNmF2LTYqtix2YPYqQ!5e0!3m2!1sar!2seg!4v1664074254673!5m2!1sar!2seg" width="800" height="600"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>    
+    </div>
+</div>
 
+    <!-- finiah map -->
+
+    <div class="contact mt-5 mb-5">
         <div class="container">
-
-        <!--start contnet  -->
-        <div class="content d-flex flex-wrap gap-4 justify-content-center align-items-center ">
-
-            <div class="left">
-                <h2 class="text-capitalize">we are world`s largest university </h2>
-                <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nesciunt odit veritatis, quae maiores numquam ratione saepe sint fugit quas ducimus voluptatibus nisi, delectus eligendi dolore ipsam dolorem, earum error sapiente neque deserunt enim ipsum recusandae assumenda. Sapiente, minima aspernatur?</p>
-                <div class="btn1 tect-uppercase mb-4">explore now</div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="contact-cont mb-4">
+                        <div class="contac mb-4">
+                            <i class="fa-solid fa-house"></i>
+                            <div class="info ms-5">
+                                <h3 class="text-capitalize">xya road, abc building</h3>
+                                <p class="text-black-50 text-capitalize">elmay elmonufia</p>
+                            </div>
+                        </div>
+                        <div class="contac mb-4">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="info ms-5">
+                                <h3 class="text-capitalize">+1 123456789</h3>
+                                <p class="text-black-50 text-capitalize">saturday to thursday from 8AM to 10PM</p>
+                            </div>
+                        </div>
+                        <div class="contac mb-4">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="info ms-5">
+                                <h3 class="text-capitalize">info12357@gmail.com</h3>
+                                <p class="text-black-50 text-capitalize">email us your query</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <form  class="contact-form">
+                        <input type="text" placeholder="name">
+                        <input type="email" name="email" id="email" placeholder="email">
+                        <input type="number" name="number" id="number" placeholder="number">
+                        <input type="text" name="subject" id="subject" placeholder="subject">
+                        <textarea name="message" id="message" placeholder="message" cols="30" rows="8"></textarea>
+                        <div class="button1">Send Message</div>
+                    </form>
+                </div>
             </div>
-            <div class="right">
-                <img src="images/about.jpg" alt="">
-            </div>
-
         </div>
-        <!-- end content -->
-
     </div>
 
 
-    </div>
 
 
-    <!-- start footer -->
+
+  <!-- start footer -->
   <footer class="mt-5">
     <div class="container">
       <div class="headline text-capitalize text-center mb-5">
@@ -107,12 +141,11 @@
 
   <!-- finish footer -->
 
-
-
-
-
+    <!-- javascript files -->
+    
+    
+    <script src="js/contact.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/head.js"></script>
 </body>
 </html>

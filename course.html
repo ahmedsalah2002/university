@@ -18,17 +18,20 @@
 <body>
 
 
-    <!-- start  header -->
-
-<nav class="navbar  navbar-expand-lg fixed-top ">
-    <div class="container">
-        <a class="navbar-brand" href="#">
+   <!-- start landing -->
+  <section class="landing" id="landing">
+    <div class="overlay"></div>
+    <div class="container ">
+      <!-- start navbar -->
+      <nav class="navbar  navbar-expand-lg fixed-top ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
             <img src="images/logo.png" class="img-fluid" alt="" srcset="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link text-uppercase p-2 p-lg-3 " aria-current="page" href="index.html">Home</a>
@@ -46,20 +49,21 @@
                     <a class="nav-link text-uppercase p-2 p-lg-3 " href="contact.html">contact</a>
                 </li>
             </ul>
+          </div>
         </div>
+        </nav>
+      <!-- finish navbar -->
+      <div class="landing-text text-center">
+        <h1 class=" text-capitalize">our courses</h1>
+      </div>
     </div>
-</nav>
-
-    <!-- end  header -->
+  </section>
+  <!-- finish landing -->
 
 
     <div class="course" >
         
-        <!--start  background and title  -->
-        <div class="title position-relative ">
-            <div class="name text-light text-capitalize position-absolute ">our course</div>
-        </div>
-        <!--end  background and title  -->
+        
 
 
         <!--start contnet  -->
@@ -69,15 +73,15 @@
             <h2 class=" text-capitalize text-center"> courses we offer </h2>
             <p class="text-black-50 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div class="boxs d-flex justify-content-center align-items-center flex-wrap gap-4">
-            <div class="box">
+            <div class="box mb-4">
                 <h3 class="text-center">intermediate</h3>
                 <p class="text-black-50 text-center text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis labore esse cum, assumenda libero porro!</p>
             </div>
-            <div class="box">
+            <div class="box mb-4">
                 <h3 class="text-center">degree</h3>
                 <p class="text-black-50 text-center text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis labore esse cum, assumenda libero porro!</p>
             </div>
-            <div class="box">
+            <div class="box mb-4">
                 <h3 class="text-center">post organization</h3>
                 <p class="text-black-50 text-center text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis labore esse cum, assumenda libero porro!</p>
             </div>
@@ -92,17 +96,17 @@
             <div class="boxs d-flex justify-content-center align-items-center flex-wrap gap-4">
             <div class="box">
                 <img src="images/library.png" alt="">
-                <h3 class="text-center">world class library</h3>
+                <h3 class="text-center mt-3">world class library</h3>
                 <p class="text-black-50 text-center text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis labore esse cum, assumenda libero porro!</p>
             </div>
             <div class="box">
                 <img src="images/basketball.png" alt="">
-                <h3 class="text-center">largest play ground</h3>
+                <h3 class="text-center mt-3">largest play ground</h3>
                 <p class="text-black-50 text-center text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis labore esse cum, assumenda libero porro!</p>
             </div>
             <div class="box">
                 <img src="images//cafeteria.png" alt="">
-                <h3 class="text-center">tasty and healthy food</h3>
+                <h3 class="text-center mt-3">tasty and healthy food</h3>
                 <p class="text-black-50 text-center text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis labore esse cum, assumenda libero porro!</p>
             </div>
             </div>
@@ -120,20 +124,26 @@
     <!-- satrt footer -->
 
 
+     <!-- start footer -->
+  <footer class="mt-5">
     <div class="container">
-        <div class="footer pb-4 d-flex flex-column justify-content-center align-items-center">
-            <h3 class="text-capitalize">about us</h3>
-            <p class="text-black-50 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias tempore illum nulla aspernatur quam quaerat quod eum itaque quisquam, est aliquid ipsum? Maxime tempora ducimus in, enim fugiat modi magni.</p>
-            <ul class="list-unstyled d-flex ">
-                <li><i class="fa-brands fa-facebook"></i></li>
-                <li><i class="fa-brands fa-twitter"></i></li>
-                <li><i class="fa-brands fa-instagram"></i></li>
-                <li><i class="fa-brands fa-linkedin-in"></i></li>
-            </ul>
-            <div class="copy-right text-capitalize">created by &copy; <span class="text-uppercase">ahmed_salah</span> & <span class="text-uppercase">abdelerahman_sameeh</span> at 2022</div>
-        </div>
+      <div class="headline text-capitalize text-center mb-5">
+        <h4 class="mb-4"> apout us</h4>
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a nam,
+            incidunt consequuntur impedit unde, dolorum, recusandae rerum accusamus temporibus
+            aspernatur saepe adipisci fugiat voluptatibus atque animi non nulla mollitia.</p>
+            <div class="social mb-4 mt-3">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <h5>made with  &#128151  by <span>Abdelrahman Sameeh</span> & <span>Ahmed Salah</span></h5>
+      </div>
     </div>
-    <!-- end footer  -->
+  </footer>
+
+  <!-- finish footer -->
 
 
 

@@ -1,25 +1,21 @@
-*{
-	box-sizing:border-box;
-	padding:0;
-	margin:0;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-
-body {
-	user-select: none;
-}
-html{
-scroll-behavior:smooth ;
-}
-
+/* start main */
 :root{
-	--main-color:#ff3e01;
-}
-
-
-/* start landing */
-.landing{
+    --main-color:#ff3e01;
+  }
+  body {
+    
+    user-select: none;
+  }
+  html{
+    scroll-behavior:smooth ;
+  }
+   
+      
+    
+    /* finish main */
+  
+  /* start landing */
+  .landing{
     position: relative;
     min-height: 60vh;
     background-image: url("../images/background.jpg");
@@ -146,92 +142,69 @@ scroll-behavior:smooth ;
   
     /* finish navbar */
 
+    
+    /* start map */
+
+    iframe{
+        width: 100%;
+        height: 500px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #888888;
+    }
+    
 
 
 
+    /* finish map */
 
-.blog .container{
-	width: 80%;
-	margin: 0 auto;
+/* start contact */
+.contac{
+    display: flex;
+    align-items: center;
+    
 }
-.blog .title {
-	background-image: url("../images/background.jpg");
-	height: 333px;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.blog .title::after{
-	position: absolute;
-	content: "";
-	width: 100%;
-	top: 0;
-	left: 0%;
-	height: 100%;
-	background-color: #25009f65;
-	z-index: 0;
-}
-.blog .title .name{
-	left: 50%;
-	top: 60%;
-	transform: translateX(-50% );
-	font-weight: bold;
-	z-index: 5;
-	font-size: 23px;
-	text-align: center;
+.contac svg{
+color: var(--main-color);
+font-size: 1.7em;
 }
 
 
-/* start content */
+  .contact-form .button1{
+    font-size: 1.2em;
+    background-color: var(--main-color);
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    transition: .3s;
+  }
+  .contact-form .button1:hover{
+    color: var(--main-color);
+    background-color: transparent;
+  }
+  .contact-form input,textarea{
+    display: block;
+    width: 100%;
+    margin: 10px 5px;
+    padding: 10px 15px;
+    border-color: transparent;
+    outline: none;
+    background-color:#e4e1e1;
+    border-radius: 6px;
+  }
+  textarea{
+    display: block;
+    width: 100%;
+  }
 
+/* finish contact */
 
+    /* start footer */
 
-
-.blog .left img{
-	width: 100%;
-	min-width: 300px;
-}
-
-.blog .left form input ,
-.blog .left form textarea{
-	width: 100%;
-	margin: 7px;
-	padding: 5px;
-	
-} 
-.blog .left form textarea{
-	height: 300px;
-}
-.blog .left form .btn1{
-	width: fit-content;
-	padding: 10px 15px;
-	border: 2px solid #bfbfbf;
-	border-radius: 6px;
-	cursor: pointer;
-	transition: .3s;
-}
-
-.blog .left form .btn1:hover{
-	color: white;
-	background-color: rgb(234, 70, 25);
-}
-
-
-
-
-
-.blog .right .head{
-	background-color: var(--main-color);
-}
-/* end content */
-
-
-
-
-
-
- /* start footer */
-
- .social{
+.social{
     color: var(--main-color);
     font-size: 1.3em;
   }
@@ -245,3 +218,5 @@ scroll-behavior:smooth ;
   
   
   /* finish footer */
+  
+    
