@@ -227,5 +227,6 @@ footer span{
   }
   .box{
     width: auto !important;
+    padding: 0 !important;
   }
 }

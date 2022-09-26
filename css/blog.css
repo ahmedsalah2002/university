@@ -253,5 +253,6 @@ scroll-behavior:smooth ;
     }
     .box{
       width: auto !important;
+      padding: 0 !important;
     }
   }
